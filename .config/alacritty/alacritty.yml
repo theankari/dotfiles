@@ -1,0 +1,9 @@
+colors:
+  primary:
+    bacground: 0x000000
+
+window:
+  opacity: 0.85
+
+font:
+  size: 8

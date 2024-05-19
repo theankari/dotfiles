@@ -1,0 +1,6 @@
+#!/bin/bash
+# This is the script that i3 runs to either start tmux in
+# the dropdown terminal or log into a previous session.
+
+TERM_NAME=${1:-"dropdown"}
+tmux attach -t $TERM_NAME || tmux new -s $TERM_NAME

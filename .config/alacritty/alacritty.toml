@@ -1,0 +1,11 @@
+[font]
+size = 13.0
+normal.family = "RobotoMono Nerd Font"
+normal.style = "regular"
+
+[window]
+dynamic_padding = false
+opacity = 0.75
+
+[colors]
+primary.background = "#000000"
