@@ -296,7 +296,7 @@ bindsym XF86AudioPrev exec playerctl previous
 #Autostart scripts
 exec_always     --no-startup-id exec ~/.autostart/autostart
 exec_always		--no-stratup-id exec thunar --daemon
-exec_always     --no-startup-id exec feh --bg-fill $HOME/Pictures/Backgrounds/sunset-minimal.jpg
+exec_always     --no-startup-id exec feh --bg-fill $HOME/Pictures/Backgrounds/background.png
 exec_always		--no-startup-id exec /usr/bin/dunst
 exec_always     --no-startup-id exec nm-applet
 # exec_always     --no-startup-id exec ~/.local/bin/monitorsetup
