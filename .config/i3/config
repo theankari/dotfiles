@@ -52,7 +52,7 @@ for_window [instance="dropdown"] move scratchpad
 for_window [instance="dropdown"] sticky toggle
 # Runs the tmuxinit script, which searches for an earlier tmux instance,
 # otherwise starts a new one (to prevent multiple dropdown sessions).
-exec --no-startup-id alacritty --name=dropdown -e ~/.local/bin/tmuxinit
+exec --no-startup-id alacritty --class=dropdown -e ~/.local/bin/tmuxinit
 exec --no-startup-id "tmux send-keys -t 0:0 'clear && cd ~' Enter"
 
 # start dmenu (a program launcher)
@@ -296,6 +296,7 @@ bindsym XF86AudioPrev exec playerctl previous
 #Autostart scripts
 exec_always     --no-startup-id exec ~/.autostart/autostart
 exec_always		--no-stratup-id exec thunar --daemon
+exec_always		--no-stratup-id exec pulseaudio -D
 exec_always     --no-startup-id exec feh --bg-fill $HOME/Pictures/Backgrounds/background.png
 exec_always		--no-startup-id exec /usr/bin/dunst
 exec_always     --no-startup-id exec nm-applet
