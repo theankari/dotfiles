@@ -1,0 +1,5 @@
+#! /bin/bash
+
+# Stow config to home, used so there is no need to remember the command
+stow . --no-folding
+
