@@ -15,6 +15,7 @@ export TERMINAL=termite
 export DISPLAY=:0
 export PATH=$PATH:$HOME/.yarn/bin:$HOME/.local/bin:~/work/bin/:./scripts/:$HOME/.local/tf:$HOME/.pyenv/bin:/usr/local/go/bin:$HOME/go/bin
 export FZF_BASE=/usr/share/fzf
+export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/ssh-agent.socket"
 set -o magicequalsubst
 
 if [ -f $HOME/.local_config ]; then
