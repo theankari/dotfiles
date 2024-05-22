@@ -11,3 +11,7 @@ Contains config files for the following
 
 Additionally some scripts are included that are used with the above.
 Used by https://github.com/theankari/arch-bootstrap to set up a user account
+
+
+# TODOS:
+Split/clean up zshrc
