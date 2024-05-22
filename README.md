@@ -14,4 +14,5 @@ Used by https://github.com/theankari/arch-bootstrap to set up a user account
 
 
 # TODOS:
-Split/clean up zshrc
+* Split/clean up zshrc
+* automatic monitor setup
