@@ -1,0 +1,8 @@
+alias tf="terraform"
+alias tfi="terraform init"
+alias tfp="terraform plan -out=.terraform.tfplan"
+
+function tfa () {
+  terraform apply .terraform.tfplan
+  rm .terraform.tfplan
+}

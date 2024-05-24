@@ -1,0 +1,10 @@
+alias newbranch='git checkout -b'
+alias commit='git commit -a -m'
+alias gpush='git push -u origin $(git branch --show-current)'
+alias gco='git checkout $(git branch -a | fzf)'
+alias kc='kubectl'
+alias pr='cd ~/work/$(ls ~/work | fzf)'
+
+function activate () {
+  source "$1/bin/activate"
+}
