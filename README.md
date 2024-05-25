@@ -17,9 +17,3 @@ Used by https://github.com/theankari/arch-bootstrap to set up a user account
 * Split/clean up zshrc
 * automatic monitor setup
 * Auto suspend on lid close
-* scripts for passage:
-    retrieve pw (& username?)
-    generate pw
-    generate QR code
-    fzf search
-    load stuff to env

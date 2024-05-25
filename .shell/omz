@@ -1,0 +1,19 @@
+DISABLE_AUTO_UPDATE="true"
+
+COMPLETION_WAITING_DOTS="true"
+
+plugins=(
+  git
+  fzf
+  web-search
+  colored-man-pages
+  extract
+  archlinux
+  zsh-syntax-highlighting
+  zsh-autosuggestions
+  zsh-completions
+)
+
+ZSH_DISABLE_COMPFIX=true
+
+source $ZSH/oh-my-zsh.sh
