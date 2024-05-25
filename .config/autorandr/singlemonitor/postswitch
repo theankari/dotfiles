@@ -1,4 +1,4 @@
 #! /bin/bash
 
-sleep 0.5
-~/.config/polybar/polylauncher.sh >/dev/null 2>&1 &
+sleep 1
+i3-msg restart
