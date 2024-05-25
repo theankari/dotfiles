@@ -15,4 +15,3 @@ Used by https://github.com/theankari/arch-bootstrap to set up a user account
 
 # TODOS:
 * automatic monitor setup
-* Auto suspend on lid close
