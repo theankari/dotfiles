@@ -12,6 +12,3 @@ Contains config files for the following
 Additionally there are some useful(?) scripts.
 Used by https://github.com/theankari/arch-bootstrap to set up a user account
 
-
-# TODOS:
-* automatic monitor setup
