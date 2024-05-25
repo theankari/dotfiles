@@ -9,11 +9,10 @@ Contains config files for the following
 * zsh
 * tmux
 
-Additionally some scripts are included that are used with the above.
+Additionally there are some useful(?) scripts.
 Used by https://github.com/theankari/arch-bootstrap to set up a user account
 
 
 # TODOS:
-* Split/clean up zshrc
 * automatic monitor setup
 * Auto suspend on lid close
