@@ -3,5 +3,6 @@ export EDITOR=vim
 export DISPLAY=:0
 export FZF_BASE=/usr/share/fzf
 export PATH=$PATH:$HOME/.yarn/bin:$HOME/.local/bin:~/work/bin/:./scripts/:$HOME/.local/tf:$HOME/.pyenv/bin:/usr/local/go/bin:$HOME/go/bin
-export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/ssh-agent.socket"
 export LANG=en_US.UTF-8
+SSH_AGENT_PID=""
+SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/gnupg/S.gpg-agent.ssh"
