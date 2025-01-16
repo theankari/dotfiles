@@ -9,3 +9,7 @@ export LANG=en_US.UTF-8
 export SSH_AGENT_PID=""
 export SSH_AUTH_SOCK="${XDG_RUNTIME_DIR}/gnupg/S.gpg-agent.ssh"
 export GPG_TTY=$(tty)
+
+
+# dev
+GOPRIVATE="github.com/theankari/"
