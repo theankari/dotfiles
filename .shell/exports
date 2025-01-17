@@ -12,4 +12,4 @@ export GPG_TTY=$(tty)
 
 
 # dev
-GOPRIVATE="github.com/theankari/"
+GOPRIVATE="github.com/theankari/*"
