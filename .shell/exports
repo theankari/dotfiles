@@ -12,4 +12,8 @@ export GPG_TTY=$(tty)
 
 
 # dev
-GOPRIVATE="github.com/theankari/*"
+export GOPRIVATE="github.com/theankari/*"
+export ANDROID_HOME="$HOME/Android/Sdk"
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
